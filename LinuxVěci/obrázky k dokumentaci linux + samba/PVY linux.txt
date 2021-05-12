@@ -1,0 +1,33 @@
+root:root
+svabam:skola
+test:test
+
+
+
+sudo passwd root
+su root
+apt-get install mc
+mc
+../
+../
+uzivatel
+/etc 
+/samba
+/samba.conf
+F4
+https://www.youtube.com/watch?v=8MWBhlaLIxQ
+potom co nefunguje jdu restartnu a jdu do mc
+/etc
+/network
+/interfaces
+F4
+auto enp0s3
+iface enp0s3 inet static
+address 192.168.1.100
+netmask 255.255.255.0
+network 192.168.1.0
+broadcast 192.168.1.255
+F2
+jdu do win nastavím ipv4ku pak upřesnit wins a to druhý
+pak firewall povolit pravidla Sdílení souboru a tiskáren požedavek na odezvu ICMPv4 -in oba dva
+oba dva virtualboxy do vnitřní sítě

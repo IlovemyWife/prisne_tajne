@@ -1,0 +1,19 @@
+groupadd -g 201 machines
+mkdir -m 0775 /home/netlogon
+mkdir /home/samba /home/samba/profiles
+chmod 1757 /home/samba/profiles
+useradd -m test
+passwd test
+test
+test
+smbpasswd -a test
+test
+test
+smbpasswd -a root
+root
+root
+
+
+^ po upravení samba.conf odejdeme z mc a napíšeme tyto příkazy do terminálu a tím přidáme 
+uživatele do domény, následně se můžeme přihlásit do domény na windowsu (obr 9) a následně, pokud
+jste vše udělali správně, se vám zobrazí "Vítejte v doméně!" poté restartujeme pc
